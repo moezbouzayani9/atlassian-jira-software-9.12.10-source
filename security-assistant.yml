@@ -1,0 +1,31 @@
+owner: moles@atlassian.com
+lowerSeverityPaths:
+  - path: jira-page-objects/**
+    reasoning: "This is a test directory"
+  - path: jira-components/jira-tests-parent/**
+    reasoning: "This is a test directory"
+  - path: jira-distribution/**/*tests/**
+    reasoning: "This is a test directory"
+  - path: jira-distribution/*tests*/**
+    reasoning: "This is a test directory"
+  - path: jira-functional-tests/**
+    reasoning: "This is a test directory"
+  - path: jira-ui-test-utils/**
+    reasoning: "This is a test directory"
+  - path: jira-functional-tests/**
+    reasoning: "This is a test directory"
+  - path: third-party-licensing/**
+    reasoning: "This is a test directory"
+  - path: jira-components/jira-plugins/*test*/**
+    reasoning: "This is a test directory"
+  - path: jira-components/jira-plugins/**/*test*/**
+    reasoning: "This is a test directory"
+  - path: jmake_src/**
+    reasoning: "This belongs to utility"
+  - path: jira-ide-support/**
+    reasoning: "This belongs to utility"
+  - path: "**/*test*/**"
+    reasoning: "This is a test directory"
+
+fileSnykTicketsWithFutureSLODates: true
+fileAllSnykTicketsNow: true
